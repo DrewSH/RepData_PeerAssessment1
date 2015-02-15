@@ -151,7 +151,7 @@ Filled_AD$wday<-factor(Filled_AD$wday,labels=c('Weekdays','Weekends'))
 
 ```
 
-In order to compare the weekday and weekend levels, panel plots is a great way to visually make this comparison.
+In order to compare the weekday and weekend levels, panel plots is a great way to visually make this comparison. 
 
 ```{r}
 Weekdays_Steps <-aggregate(steps ~ interval + wday
